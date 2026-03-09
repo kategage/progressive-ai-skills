@@ -1,0 +1,45 @@
+name: Bug Report
+description: Report a problem with an existing skill
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: input
+    id: skill-name
+    attributes:
+      label: Which skill?
+      description: The name of the skill that isn't working correctly
+      placeholder: "e.g., meeting-notes-to-actions"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe what went wrong. What did you expect vs. what you got?
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Where were you using the skill?
+      options:
+        - Claude Code
+        - Cowork (Claude desktop app)
+        - Claude.ai (pasted manually)
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: input-used
+    attributes:
+      label: What input did you give it?
+      description: Share the input you used (or a representative sample). Remove any sensitive data.
+    validations:
+      required: false
+  - type: textarea
+    id: output-received
+    attributes:
+      label: What output did you get?
+      description: Paste or describe the output you received.
+    validations:
+      required: false

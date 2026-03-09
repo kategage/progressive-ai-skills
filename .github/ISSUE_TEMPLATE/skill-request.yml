@@ -1,0 +1,77 @@
+name: Skill Request
+description: Request a new skill for a task you'd like automated
+title: "[Request] "
+labels: ["skill-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for requesting a skill! The more detail you give us, the better we can build something that actually works for you.
+  - type: input
+    id: task
+    attributes:
+      label: What task do you need automated?
+      description: Describe the task in plain language. What do you do, and what do you want the output to be?
+      placeholder: "e.g., I need to take our weekly Zoom call transcript and turn it into a formatted email recap with action items for each person."
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: What best describes your role?
+      options:
+        - Campaign staff
+        - Organizer / field
+        - Communications / comms
+        - Data / analytics
+        - Fundraising
+        - Policy / advocacy
+        - Tech / engineering
+        - Executive / leadership
+        - Volunteer
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: org-type
+    attributes:
+      label: What type of organization are you at?
+      placeholder: "e.g., statewide campaign, national advocacy org, local c3, labor union"
+    validations:
+      required: false
+  - type: textarea
+    id: input-description
+    attributes:
+      label: What does the input look like?
+      description: What data or content would you give the skill to work with?
+      placeholder: "e.g., A Zoom transcript (VTT or TXT file), usually 45-60 minutes long, with 5-10 participants."
+    validations:
+      required: true
+  - type: textarea
+    id: output-description
+    attributes:
+      label: What should the output look like?
+      description: Describe your ideal output. Be as specific as you can -- format, length, sections, tone.
+      placeholder: "e.g., A formatted email with: summary paragraph, decisions made (bulleted), action items per person with deadlines, and any unresolved questions."
+    validations:
+      required: true
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often do you do this task?
+      options:
+        - Daily
+        - A few times a week
+        - Weekly
+        - A few times a month
+        - Monthly
+        - Occasionally
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else we should know?
+      description: Tools you use, quirks of your workflow, who else on your team might use this, etc.
+    validations:
+      required: false
