@@ -12,7 +12,7 @@ Think of it like a recipe: instead of explaining from scratch every time you wan
 
 ## Browse skills
 
-Visit **[progressive-ai-skills.org](https://progressive-ai-skills.org)** to search, filter, and copy skills without needing a GitHub account.
+Visit **[progressive-ai-skills](https://higher-ground-institute.github.io/progressive-ai-skills/)** to search, filter, and copy skills without needing a GitHub account.
 
 Or browse the folders below:
 
