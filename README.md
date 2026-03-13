@@ -2,7 +2,7 @@
 
 A curated collection of tested, ready-to-use AI skills for campaigns, organizing, and progressive infrastructure. Each skill is a drop-in automation for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) or [Cowork](https://claude.ai) that handles a specific, common task.
 
-Built and maintained by [Cooperative Impact Lab](https://cooperativeimpactlab.org) / [Higher Ground Institute](https://highergroundlabs.com).
+Built and maintained by [Higher Ground Institute](https://highergroundlabs.com).
 
 ## What is a "skill"?
 
@@ -12,7 +12,7 @@ Think of it like a recipe: instead of explaining from scratch every time you wan
 
 ## Browse skills
 
-Visit **[progressive-ai-skills](https://higher-ground-institute.github.io/progressive-ai-skills/)** to search, filter, and copy skills without needing a GitHub account.
+Visit **[progressive-ai-skills]([https://higher-ground-institute.github.io/progressive-ai-skills/](https://aicampaignstack.org/skills))** in HGI's AI Campaign Stack to search, filter, and copy skills without needing a GitHub account.
 
 Or browse the folders below:
 
