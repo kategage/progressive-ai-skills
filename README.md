@@ -21,6 +21,7 @@ Or browse the folders below:
 | [resource-formatter](skills/resource-formatter/) | Formats URLs into styled entries for the HGL AI Resource Guide | Content & Comms |
 | [meeting-notes-to-actions](skills/meeting-notes-to-actions/) | Extracts decisions, action items, and follow-ups from meeting notes or transcripts | Operations |
 | [event-recap-generator](skills/event-recap-generator/) | Turns event/webinar notes or transcripts into shareable recaps | Content & Comms |
+| [confess](skills/confess/) | Honest audit of AI output — confidence levels, shortcuts, assumptions, and weakest parts | Meta & Process |
 
 ## How to use a skill
 
@@ -48,6 +49,7 @@ Skills are organized by what kind of work they support:
 - **Research & Data** -- lookups, data extraction, analysis
 - **Field & Organizing** -- volunteer management, event coordination, outreach
 - **Training & Onboarding** -- guides, templates, learning resources
+- **Meta & Process** -- working with AI effectively, quality checks, workflow patterns
 
 ## Contributing
 
