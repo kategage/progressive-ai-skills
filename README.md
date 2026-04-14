@@ -22,6 +22,7 @@ Or browse the folders below:
 | [meeting-notes-to-actions](skills/meeting-notes-to-actions/) | Extracts decisions, action items, and follow-ups from meeting notes or transcripts | Operations |
 | [event-recap-generator](skills/event-recap-generator/) | Turns event/webinar notes or transcripts into shareable recaps | Content & Comms |
 | [confess](skills/confess/) | Honest audit of AI output — confidence levels, shortcuts, assumptions, and weakest parts | Meta & Process |
+| [brown-mm](skills/brown-mm/) | Catches every error after you spot the first one. When you find a mistake in Claude's output, Brown M&M runs a four-pass audit — fact verification, internal consistency, logic review, and a fresh-eyes re-read — then delivers a corrected version with a full accounting of what it found. Based on Van Halen's famous brown M&M test: one small failure is a reliable signal that others are hiding. Works on any output type: emails, code, reports, research, plans. | Meta & Process |
 
 ## How to use a skill
 
