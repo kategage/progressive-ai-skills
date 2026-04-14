@@ -35,3 +35,7 @@ The four-pass audit structure works across all output types. Emphasis shifts aut
 ## How to use
 
 Drop the SKILL.md into your skills directory. When you spot an error in Claude's output, say "brown M&M", "audit this", "check everything", "what else is wrong", or simply point out the mistake. The skill activates and runs a full four-pass audit of the output.
+
+## Credit
+
+This skill was created by [septapod](https://github.com/septapod). Original source: [septapod/brown-mm](https://github.com/septapod/brown-mm). Licensed under MIT.
