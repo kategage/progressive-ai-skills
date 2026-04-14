@@ -203,6 +203,7 @@ function SkillCard({ skill }) {
     "Research & Data": "bg-blue-100 text-blue-800",
     "Field & Organizing": "bg-orange-100 text-orange-800",
     "Training & Onboarding": "bg-purple-100 text-purple-800",
+    "Meta & Process": "bg-indigo-100 text-indigo-800",
   };
 
   return (
