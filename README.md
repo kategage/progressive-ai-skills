@@ -8,7 +8,7 @@ Built and maintained by [Higher Ground Institute](https://highergroundlabs.com).
 
 A skill is a SKILL.md file -- a set of instructions that tells Claude exactly how to handle a specific task. Drop it into your Claude Code or Cowork setup, and it just works. No coding required.
 
-Think of it like a recipe: instead of explaining from scratch every time you want meeting notes summarized or a resource formatted, the skill handles the process automatically with consistent, high-quality output.
+Think of it like a recipe: instead of explaining from scratch every time you want meeting notes summarized, a resource formatted, contacts pulled out of your inbox, or LinkedIn follow-ups queued up after meetings, the skill handles the process automatically with consistent, high-quality output.
 
 ## Browse skills
 
@@ -42,6 +42,9 @@ Or browse the folders below:
 1. Copy the contents of the SKILL.md file
 2. Paste it at the start of your conversation as context
 3. Proceed with your task -- Claude will follow the skill's instructions
+
+**As a scheduled task (Cowork):**
+Some skills (like `contact-extractor` and `linkedin-connector`) are designed to run on a recurring schedule. Install the SKILL.md as above, then ask Cowork to schedule it (e.g., "run the contact-extractor every Friday afternoon"). The skill's instructions cover initial setup, the recurring run window, and how state is preserved between runs.
 
 ## Categories
 
