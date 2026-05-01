@@ -8,7 +8,7 @@ Built and maintained by [Higher Ground Institute](https://highergroundlabs.com).
 
 A skill is a SKILL.md file -- a set of instructions that tells Claude exactly how to handle a specific task. Drop it into your Claude Code or Cowork setup, and it just works. No coding required.
 
-Think of it like a recipe: instead of explaining from scratch every time you want meeting notes summarized or a resource formatted, the skill handles the process automatically with consistent, high-quality output.
+Think of it like a recipe: instead of explaining from scratch every time you want meeting notes summarized, a resource formatted, contacts pulled out of your inbox, or LinkedIn follow-ups queued up after meetings, the skill handles the process automatically with consistent, high-quality output.
 
 ## Browse skills
 
@@ -21,6 +21,8 @@ Or browse the folders below:
 | [resource-formatter](skills/resource-formatter/) | Formats URLs into styled entries for the HGL AI Resource Guide | Content & Comms |
 | [meeting-notes-to-actions](skills/meeting-notes-to-actions/) | Extracts decisions, action items, and follow-ups from meeting notes or transcripts | Operations |
 | [event-recap-generator](skills/event-recap-generator/) | Turns event/webinar notes or transcripts into shareable recaps | Content & Comms |
+| [contact-extractor](skills/contact-extractor/) | Scheduled Gmail scan that pulls names, emails, phone numbers, organizations, and titles from headers, forwarded messages, signatures, and body text, then saves them to a deduplicated spreadsheet that stays clean across runs | Research & Data |
+| [linkedin-connector](skills/linkedin-connector/) | Recurring networking follow-up: scans recent calendar meetings for new external attendees, filters out colleagues and people already presented, looks up LinkedIn profiles, and opens "Connect" tabs in Chrome (auto-closing tabs for people you're already connected to) | Field & Organizing |
 | [confess](skills/confess/) | Honest audit of AI output — confidence levels, shortcuts, assumptions, and weakest parts | Meta & Process |
 | [brown-mm](skills/brown-mm/) | Catches every error after you spot the first one. When you find a mistake in Claude's output, Brown M&M runs a four-pass audit — fact verification, internal consistency, logic review, and a fresh-eyes re-read — then delivers a corrected version with a full accounting of what it found. Based on Van Halen's famous brown M&M test: one small failure is a reliable signal that others are hiding. Works on any output type: emails, code, reports, research, plans. | Meta & Process |
 
@@ -40,6 +42,9 @@ Or browse the folders below:
 1. Copy the contents of the SKILL.md file
 2. Paste it at the start of your conversation as context
 3. Proceed with your task -- Claude will follow the skill's instructions
+
+**As a scheduled task (Cowork):**
+Some skills (like `contact-extractor` and `linkedin-connector`) are designed to run on a recurring schedule. Install the SKILL.md as above, then ask Cowork to schedule it (e.g., "run the contact-extractor every Friday afternoon"). The skill's instructions cover initial setup, the recurring run window, and how state is preserved between runs.
 
 ## Categories
 
